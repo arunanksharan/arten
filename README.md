@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Arten
 
-## Getting Started
+## Welcome to Arten
 
-First, run the development server:
+Arten is a single-stop shop for your journey into generative artwork.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I have always been fascinated by the creative process and enamoured by beautiful things. But I never knew how to make those aesthetically pleasing things.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+After spending nearly a decade in tech and with the advancements in generative AI, this is my journey into the world of discovering pathways and creating beautiful works of art.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Will this be my life's work? I donot know yet. But that is the answer I am searching for.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Join me!
 
-## Learn More
+## Tools
 
-To learn more about Next.js, take a look at the following resources:
+1. Web App related setup - NextJS with Tailwind
+2. Generative Artwork Setup
+3. Web3 Setup - NFT creation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I will update this page as we move forward.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Let's go!
 
-## Deploy on Vercel
+## Step by step Procedure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. For the desired artwork, decide on the different components.
+   In our example, Hashlips, these are present as layers.
+   eg: Background, Eye Ball, Bottom Lid, Top Lid, Iris, Shine,Eye Color
+   Refer to the image below for the explanation
+   ![alt text](image.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Each layer will have its set of values it can take.
+   eg: Background - Black | Eye Ball - Red, White etc
+
+3. Once this is decided, the universal set is created.
+
+4. We need to modify the probabilities of different components taking up different values to decide on distribution of an attribute-value combination appearing in the artwork.
